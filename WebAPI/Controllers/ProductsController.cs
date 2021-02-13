@@ -16,7 +16,7 @@ namespace WebAPI.Controllers
     public class ProductsController : ControllerBase
     {
         //Loosely couple
-        //naming convention
+        
         //IoC Container -- Inversion of Control
         IProductService _productService;
 
